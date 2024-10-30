@@ -4,7 +4,7 @@ from typing import Union
 
 class Prompt:
     MAX_TOKENS = 2048
-    MODEL = "gpt-4o-mini"
+    MODEL = "gpt-3.5-turbo"
 
     def __init__(self, text: str, max_tokens: Union[int, None] = None):
         self.max_tokens = max_tokens if max_tokens is not None else self.MAX_TOKENS

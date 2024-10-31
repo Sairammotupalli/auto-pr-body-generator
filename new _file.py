@@ -6,6 +6,6 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 # Get the nth Fibonacci number
-n = 10
+n = 5
 result = fibonacci(n)
 print("The", n, "th Fibonacci number is:", result)
